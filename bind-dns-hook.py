@@ -8,8 +8,7 @@ from blockstack_zones import parse_zone_file,make_zone_file
 format = "%Y%m%d"
 serialprefix = datetime.datetime.today().strftime(format)
 
-#zonepath='/etc/bind/primary/'
-zonepath='./'
+zonepath='/etc/bind/primary/'
 
 def deploy_challenge(options):
     domain=options[2]
