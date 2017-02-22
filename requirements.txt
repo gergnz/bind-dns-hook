@@ -1,0 +1,1 @@
+-e git+https://github.com/gergnz/dns-zone-file-py#egg=blockstack-zones
